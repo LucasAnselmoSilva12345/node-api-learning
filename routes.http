@@ -9,19 +9,19 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos?search=how
+GET http://localhost:3333/videos
 
 ###
 
-PUT http://localhost:3333/videos/6c14056e-4cf6-4ed6-bef5-0755ee1bf1ae
+PUT http://localhost:3333/videos/5ca82230-a03e-44ab-b9a6-a46222149523
 Content-Type: application/json
 
 {
-  "title": "Video 2285",
-  "description": "This is a description of Video 2285",
-  "duration": 180
+  "title": "How to write a integration test with Jest and Testing Library",
+  "description": "This is a description of the video about how to write a integration test with Jest and Testing Library",
+  "duration": 240
 }
 
 ###
 
-DELETE http://localhost:3333/videos/6c14056e-4cf6-4ed6-bef5-0755ee1bf1ae
+DELETE http://localhost:3333/videos/5ca82230-a03e-44ab-b9a6-a46222149523
