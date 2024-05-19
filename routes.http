@@ -2,14 +2,14 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-  "title": "Video JS",
-  "description": "This is a description of Video 01",
+  "title": "How to write a unit test with Jest",
+  "description": "This is a description of the video about how to write a unit test with Jest",
   "duration": 180
 }
 
 ###
 
-GET http://localhost:3333/videos?search=Video
+GET http://localhost:3333/videos?search=how
 
 ###
 
