@@ -1,19 +1,19 @@
-POST http://localhost:3333/videos
+POST https://node-api-learning-ehgn.onrender.com/videos
 Content-Type: application/json
 
 {
-  "title": "How to write a unit test with Jest",
-  "description": "This is a description of the video about how to write a unit test with Jest",
+  "title": "How to write a Components in React Js with TypeScipt",
+  "description": "This is a description of the video about how to write a Components in React Js with TypeScipt",
   "duration": 180
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-api-learning-ehgn.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/5ca82230-a03e-44ab-b9a6-a46222149523
+PUT https://node-api-learning-ehgn.onrender.com/videos/7c4410d5-d245-4656-a5ea-e6fa7ecdcfc3
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/5ca82230-a03e-44ab-b9a6-a46222149523
+DELETE https://node-api-learning-ehgn.onrender.com/videos/7c4410d5-d245-4656-a5ea-e6fa7ecdcfc3
